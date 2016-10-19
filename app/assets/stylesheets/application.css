@@ -13,3 +13,46 @@
  *= require_tree .
  *= require_self
  */
+
+html *
+{
+   font-family: "Roboto Slab" !important;
+}
+
+.blog-post-form {
+	width: 100%;
+	margin: auto;
+	padding: 4%;
+	
+}
+
+[type=text] {
+	width: 75%;
+	height: 26px;
+	margin: auto;
+	border: 0;
+}
+
+textarea {
+	width: 75%;
+	height: 600px;
+	margin: auto;
+	border: 0;
+}
+
+label {
+	font-family: "Roboto Slab";
+	text-align: center;
+}
+
+[type=submit] {
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 75%;
+}
